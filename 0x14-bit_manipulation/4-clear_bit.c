@@ -11,7 +11,7 @@ int clear_bit(unsigned long int *n, unsigned int index)
 {
 unsigned long int mz;
 unsigned long int mask = 1;
-mz = (sizeof(unsigned lont int) * 8);
+mz = (sizeof(unsigned long int) * 8);
 if (index > mz)
 return (-1);
 mask = ~(mask << index);

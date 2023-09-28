@@ -18,4 +18,3 @@ mask <<= index;
 *n = (*n | mask);
 return (1);
 }
-

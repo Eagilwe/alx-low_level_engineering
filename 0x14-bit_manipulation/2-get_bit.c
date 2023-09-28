@@ -9,11 +9,11 @@
 
 int get_bit(unsigned long int n, unsigned int index)
 {
-int bit;
-unsigned int mz;
-mz = (sizeof(unsigned long int) * 8);
-if (index > mz);
+int z;
+unsigned int x;
+x = (sizeof(unsigned long int) * 8);
+if (index > x)
 return (-1);
-bit = ((n >> index) & 1);
-return (bit);
+z = ((n >> index) & 1);
+return (z);
 }

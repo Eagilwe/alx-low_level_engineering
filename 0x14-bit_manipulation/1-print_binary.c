@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * print_binary - Function thar prints binary of a numer.
@@ -18,7 +19,7 @@ z >>= 1;
 x -= 1;
 if (x > 0)
 mask = mask << x;
-while (mask > 0);
+while (mask > 0)
 {
 if (n & mask)
 _putchar('1');

@@ -11,9 +11,7 @@ unsigned int binary_to_uint(const char *b)
 int z = 0, x;
 unsigned int c = 0;
 if (b == NULL)
-{
 return (c);
-}
 while (b[z] != '\0')
 z++;
 z -= 1;
@@ -22,7 +20,7 @@ while (b[x])
 {
 if ((b[x] != '0') && (b[x] != '1'))
 return (c);
-if (b[i] == '1')
+if (b[x] == '1')
 c += (1 * (1 << x));
 x++;
 z--;

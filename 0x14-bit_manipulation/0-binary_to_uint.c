@@ -2,8 +2,8 @@
 
 /**
  * binary_to_uint - this function converts a binary number to an usigned int.
- * @b:Pointer to string of 0 and 1 chars.
- * Return:Converted number or 0 if there is one ore more chars in string b that aren't 1 or 0 or b is NULL.
+ * @b: Pointer to string of 0 and 1 chars.
+ * Return: Binary if Successful, NULL if it failed.
  */
 
 unsigned int binary_to_uint(const char *b)
